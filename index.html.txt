@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adınızın Web Sitesi</title>
+    <title>Öğretmen Adı Soyadı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Merhaba, Ben [Adınız Soyadınız]!</h1>
-    <p>Benim hakkımda birkaç cümle...</p>
-</body>
-</html>
+    <header>
+        <h1>Merhaba, Ben [Adınız Soyadınız]</h1>
+    </header>
+    <section>
+        <h2>Hakkımda</h2>
+        <p>Ben [Adınız Soyadınız], [Alanınız] öğretmeniyim. [Kısa bir öğretmenlik deneyimi veya uzmanlık alanınız hakkında bilgi ekleyin.]</p>
+    </section>
+    <section>
+        <h2>Eğitim</h2>
+        <p>[Mezun olduğunuz okul ve bölümü belirtin. Diploma veya sertifikalarınız hakkında bilgi ekleyebilirsiniz.]</p>
+    </section>
+    <section>
+        <h2>İletişim</h2>
+        <p>Email: [Email adresiniz]</p>
+        <p>LinkedIn: [LinkedIn profili]</p>
+        <p>Twitter: [Twitter hesabı]</p>
